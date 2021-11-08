@@ -1,0 +1,383 @@
+.head_columns{
+    width: 100vw;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh;
+    background-color: rgb(238, 229, 229);
+}
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.content{
+   font-size: 18px; 
+   color: rgb(136, 130, 130);
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+   font-weight: lighter;
+   text-shadow: 2px 2px lawngreen;
+}
+.navbar-bg{
+    background-color: burlywood;
+    width: 100vw;
+    
+
+}
+
+.siz{
+    border-radius: 5%;
+   
+    
+}
+.nav_bgcolor{
+    background-color: rgb(238, 229, 229);
+
+
+}
+.menucolor{
+    color: hotpink;
+}
+.bpaycolor{
+    color: rgb(48, 124, 160);
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 800;
+}
+.nlink:hover{
+    color: indigo;
+    font-weight: 700;
+    
+    border-bottom: 2px solid white;
+}
+.Bpayim{
+    border-radius: 5%;
+    transition: animate 2s infinite;
+    
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.emil{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 382px;
+    background-color: rgb(48, 124, 160);
+    
+    
+}
+.emiltxt{
+    width: 500px;
+    outline: none;
+    height: 40px;
+    border: 1px solid blue;
+    font-weight: lighter;
+    padding: 0 15px;
+}
+.toggl{
+    color: black;
+    background-color: blue;
+    border: 2px solid black;
+}
+.howitworks{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -30px;
+   
+   
+    background-color: white;
+    margin-bottom: 10px;
+}
+.hiw{
+    justify-content: center;
+    align-content: center;
+}
+.hiws{
+    word-spacing: 3px;
+    letter-spacing: 5px;
+}
+
+
+.iconrounder{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(153, 165, 170);
+    color: blue;
+    place-items: center;
+}
+.htu{
+    margin: 0 auto;
+    
+}
+.htw{
+    margin:0 auto;
+}
+.imagesection{
+    width: 50%;
+    height: 25%;
+
+
+}
+.description{
+    width: 50%;
+    
+}
+.im{
+    width: 300px;
+    height: 400px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.fl{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+       
+   }
+.dsections{
+    height: auto;
+    padding: 10px;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.ll{
+    text-align: left;
+    margin-left: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font: italic;
+}
+.lb{
+    font-weight: 600;
+}
+.btn_style{
+    margin-right: auto;
+}
+.txt_style{
+    text-align: left;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.sections{
+    align-content: space-between;
+}
+.service-main-container{
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.service_d{
+    text-align: left;
+}
+.service_ss{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+    
+}
+.service-content:hover{
+    background-color: rgb(234, 234, 241);
+
+}
+.service-content{
+    padding: 10px;
+}
+.contact-left{
+    font-family: 'Style Script', cursive;
+    height: 70vh;
+    
+}
+.contact-left-text{
+    font-weight:lighter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'STIX Two Text', serif;
+
+    
+}
+.imgsize{
+    width: 400px;
+    height: 250px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* .contact-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+} */
+/* .adres{
+    grid-area: 3/1/4/-1;
+} */
+.txt-style{
+    height: 30px;
+    font-size:20px;
+}
+.msg-style{
+    font-size: 20px;
+}
+/* .msg{
+    grid-area: 4/1/5/-1;
+} */
+.fname{
+    height: 40px;
+    background-color: blueviolet;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-right{
+    height: 70vh;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+.page-error{
+    width: 100%;
+    height: auto;
+    
+
+}
+.page{
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    background-color: cornflowerblue;
+}
+.error{
+    font-size: 100px;
+    font-weight:bolder;
+    opacity: 0.4;
+}
+.backbtn{
+    width: 300px;
+}
+.header{
+    background-color: rgb(175, 249, 252);
+    height: 95vh;
+    
+    
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+.payimage{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+.header_s{
+    height: 95vh;
+    background-color:burlywood;
+}
+@media(max-width:400px){
+    .header_s{
+        height:130vh;
+       
+    
+    }
+    .form_class{
+        display: flex;
+        flex-direction: column;
+        width:100% ;
+        height: 100px;
+        justify-content:space-between;
+        
+        
+        
+    }
+   .text_style{
+        width: 100%
+        
+    }
+    .form_class .text_style{
+        width: 100%;
+    }
+    .form-class1{
+        margin-top: 10px;
+    }
+    .imgsize{
+        width: 350px;
+    }
+    .service_d{
+        text-align: center;
+    }
+    .im{
+        width: 240px;
+    }
+    .header_s .header_section1{
+        margin-top:10px;
+    }
+}
+.rund{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    position: sticky;
+}
+.form_class{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.text_style{
+    width: 45%;
+}
+.form-class1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 100%;
+    height: 70vh;
+    
+}
+.txt-height{
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgb(232, 232, 238);
+    border: 1px solid;
+}
+.msg_style{
+    border-color: rgb(232, 232, 238);
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid;
+}
+.header_section1{
+    padding-top: 80px;
+    
+}
+.header_section2{
+    
+}
