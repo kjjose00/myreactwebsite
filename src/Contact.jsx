@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SalesImage from './images/salesteam.jpeg';
 
 function Contact() {
     const [contactData,setContactData]=useState({
@@ -75,7 +76,7 @@ function Contact() {
 
                         </div>
                         <div>
-                            <img src="salesteam.jpeg" alt="salesteam" className='imgsize'/>
+                            <img src={SalesImage} alt="salesteam" className='imgsize'/>
                         </div>
                     </div>
                      <div className='col-lg-6 col-sm-12'>

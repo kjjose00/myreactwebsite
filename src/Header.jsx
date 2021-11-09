@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderImage from './images/amazonpay.jpg';
 
 
 function Header() {
@@ -24,7 +25,7 @@ function Header() {
             </div>
             <div className='col-sm-12 col-lg-6 d-flex justify-content-center align-content-center mt-lg-5 mt-3 order-sm-first order-lg-last header_section2'>
                 <div>
-                    <img src="amazonpay.jpg" alt="" className='payimage shadow'/>
+                    <img src={HeaderImage} alt="" className='payimage shadow'/>
                    
                    
                     

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import aboutapi from './aboutapi';
+import LoginImage from './images/login.png';
 
 function Howtouse() {
     const [about,setAbout]=useState(aboutapi);
@@ -17,7 +18,7 @@ function Howtouse() {
                
                 <div className='row d-flex'>
                     <div className='col-sm-12 col-lg-6'>
-                        <img src="./login.png" alt="" className='im'/>
+                        <img src={LoginImage} alt="" className='im'/>
 
                     </div>
                     <div className="col-sm-12 col-lg-6 d-flex flex-column justify-content-lg-between">
@@ -57,7 +58,7 @@ function Howtouse() {
                
                 <div className='d-flex row flex-row-reverse p-5'>
                     <div className='col-sm-12 col-lg-6'>
-                        <img src="./login.png" alt="" className='im'/>
+                        <img src={LoginImage} alt="" className='im'/>
 
                     </div>
                     <div className="col-sm-12 col-lg-6 d-flex flex-column justify-content-lg-between">
