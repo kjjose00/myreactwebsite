@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/myreactwebsite/static/css/main.6bba6fb4.chunk.css",
-    "main.js": "/myreactwebsite/static/js/main.c8c38113.chunk.js",
-    "main.js.map": "/myreactwebsite/static/js/main.c8c38113.chunk.js.map",
+    "main.js": "/myreactwebsite/static/js/main.8e62d7a8.chunk.js",
+    "main.js.map": "/myreactwebsite/static/js/main.8e62d7a8.chunk.js.map",
     "runtime-main.js": "/myreactwebsite/static/js/runtime-main.36e930fb.js",
     "runtime-main.js.map": "/myreactwebsite/static/js/runtime-main.36e930fb.js.map",
     "static/js/2.4e32dea9.chunk.js": "/myreactwebsite/static/js/2.4e32dea9.chunk.js",
     "static/js/2.4e32dea9.chunk.js.map": "/myreactwebsite/static/js/2.4e32dea9.chunk.js.map",
     "index.html": "/myreactwebsite/index.html",
     "static/css/main.6bba6fb4.chunk.css.map": "/myreactwebsite/static/css/main.6bba6fb4.chunk.css.map",
-    "static/js/2.4e32dea9.chunk.js.LICENSE.txt": "/myreactwebsite/static/js/2.4e32dea9.chunk.js.LICENSE.txt"
+    "static/js/2.4e32dea9.chunk.js.LICENSE.txt": "/myreactwebsite/static/js/2.4e32dea9.chunk.js.LICENSE.txt",
+    "static/media/amazonpay.299b8c6e.jpg": "/myreactwebsite/static/media/amazonpay.299b8c6e.jpg",
+    "static/media/login.49424f0b.png": "/myreactwebsite/static/media/login.49424f0b.png",
+    "static/media/salesteam.6b87a0de.jpeg": "/myreactwebsite/static/media/salesteam.6b87a0de.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.36e930fb.js",
     "static/js/2.4e32dea9.chunk.js",
     "static/css/main.6bba6fb4.chunk.css",
-    "static/js/main.c8c38113.chunk.js"
+    "static/js/main.8e62d7a8.chunk.js"
   ]
 }

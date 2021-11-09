@@ -12,7 +12,7 @@ function App() {
   return (
    <>
     <Switch>
-      <Route exact path='/' component={Home}></Route>
+      <Route exact path='/myreactwebsite' component={Home}></Route>
       <Route exact path='/about' component={About}></Route>
       <Route exact path='/contact' component={Contactus}></Route>
       <Route exact path='/service' component={Service}></Route>
